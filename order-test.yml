@@ -15,3 +15,5 @@ ribbon:
   ConnectTimeout: 60000
 env:
   test
+label:
+  release
