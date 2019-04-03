@@ -15,3 +15,9 @@ ribbon:
   ConnectTimeout: 60000
 env:
   test4
+
+
+girl:
+  name: "alicia"
+  age: 11
+  school: "haha university"
