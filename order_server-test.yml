@@ -14,10 +14,10 @@ ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
 env:
-  test67
+  test678
 
 
 girl:
   name: "alicia"
-  age: 567
+  age: 5678
   school: "haha university"
