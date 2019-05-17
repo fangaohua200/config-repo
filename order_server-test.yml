@@ -7,7 +7,7 @@ spring:
     password: 123456
     url: jdbc:mysql://10.122.44.127:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
   rabbitmq:
-    host: localhost
+    host: 10.122.44.127
     port: 5672
     username: guest
     password: guest
