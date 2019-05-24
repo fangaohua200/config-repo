@@ -14,8 +14,10 @@ spring:
   stream:
     bindings:
       MessageOut:
+        group: order
         destination: stream-demo
       MessageIn:
+        group: order
         destination: stream-demo
 eureka:
   client:
