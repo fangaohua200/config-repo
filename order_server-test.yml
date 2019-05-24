@@ -11,6 +11,12 @@ spring:
     port: 5672
     username: guest
     password: guest
+  stream:
+    bindings:
+      MessageOut:
+        destination: stream-demo
+      MessageIn:
+        destination: stream-demo
 eureka:
   client:
     service-url:
