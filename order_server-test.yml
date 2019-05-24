@@ -11,14 +11,18 @@ spring:
     port: 5672
     username: guest
     password: guest
-  stream:
-    bindings:
-      MessageOut:
-        group: order
-        destination: stream-demo
-      MessageIn:
-        group: order
-        destination: stream-demo
+  redis:
+    host: 10.122.44.127
+    port: 6379
+  cloud:
+    stream:
+      bindings:
+        MessageOut:
+          group: order
+          destination: stream-demo
+        MessageIn:
+          group: order
+          destination: stream-demo
 eureka:
   client:
     service-url:
