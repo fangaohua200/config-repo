@@ -7,3 +7,5 @@ zuul:
     myProduct:
       path: /myProduct/**
       serviceId: product
+    product:
+      path: /yourProduct/**
