@@ -9,5 +9,4 @@ zuul:
       serviceId: product
     product:
       path: /yourProduct/**
-    product:
-      path: /herProduct/**
+
